@@ -1,1 +1,67 @@
-/* место для вашего кода */
+* {
+  color: #000;
+  background-color: #fff;
+}
+
+.header {
+  padding: 94px 51px;
+  display: flex;
+  flex-direction: space-between;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header__menu {
+  padding-right: 36px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  gap: 32px;
+}
+
+.header__menu-item {
+  list-style-type: circle;
+  border-bottom: 1px #000 solid;
+  letter-spacing: 0.18px;
+}
+
+.header__menu-item_active {
+  list-style-type: none;
+  border-bottom: none;
+}
+
+.header__logo {
+}
+
+.header__logo-image {
+  width: 148px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 184px;
+}
+
+.contact__item {
+  list-style-type: none;
+  line-height: 24.3px;
+  word-wrap: break-word;
+}
+
+.contact__item-underline {
+  display: inline;
+  border-bottom: 1px #000 solid;
+  word-wrap: break-word;
+}
