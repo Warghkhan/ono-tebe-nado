@@ -1,7 +1,14 @@
+/*
 * {
   color: #000;
   background-color: #fff;
 }
+*/
+/*
+body {
+  border: 1px dotted  black;
+}
+*/
 
 .header {
   padding: 94px 51px;
@@ -64,4 +71,102 @@
   display: inline;
   border-bottom: 1px #000 solid;
   word-wrap: break-word;
+}
+
+.cover {
+  background-color: #000;
+  min-height: 757px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+ 
+}
+
+.cover__title {  
+  padding: 145px 50px;
+  display: block;
+  size: 1000px 355px;
+  color: #fff;
+  background-color: transparent; 
+   
+}
+
+.accent-span {
+ 
+  display: flex;  
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  word-wrap: break-word;  
+  align-self: start;
+  padding-top: 20px;
+
+  
+}
+.text-left {
+  line-height: 115px;
+
+}
+
+.text-center {  
+
+  line-height: 100px;  
+  justify-content: center;
+  align-self: start;
+  
+}
+
+.text-right {
+  line-height: 100px;
+  justify-content: right;
+  
+  
+}
+
+.accent-letter-spacing {
+  letter-spacing: 60px;  
+
+}
+
+.cover__bottom {
+  padding-left: 78px;
+  padding-right: 82px;
+
+  color: white;
+  font-size: 22px;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 28px;  
+  
+ /* word-wrap: break-word;*/
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.cover__bottom-text {
+  word-spacing: 20px;
+}
+
+.cover__bottom-button {
+
+  color: #fff;
+  background-color: transparent;
+  border: 1px white solid;
+  position: -6px;
+  padding: 12px 31px;
+  font-size: 22px;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-wrap: break-word
+
 }
