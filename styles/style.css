@@ -12,6 +12,7 @@ body {
 
 .header {
   padding: 94px 51px;
+
   display: flex;
   flex-direction: space-between;
   align-items: center;
@@ -78,17 +79,14 @@ body {
   background-color: #000;
   height: 757px;
   /*min-height: 757px;*/
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 124.5%;
-  
- 
 }
 
-.cover__title {  
+.cover__title {
   padding-top: 145px;
   padding-left: 50px;
   padding-right: 50px;
@@ -96,65 +94,55 @@ body {
   display: block;
   size: 1000px 355px;
   color: #fff;
-  background-color: transparent; 
-   
+  background-color: transparent;
 }
 
 .accent-span {
- 
-  display: flex;  
+  display: flex;
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 30px;
-  word-wrap: break-word;  
+  word-wrap: break-word;
   align-self: start;
   padding-top: 20px;
-
-  
 }
 .text-left {
   line-height: 115px;
-
 }
 
-.text-center {  
-
-  line-height: 100px;  
+.text-center {
+  line-height: 100px;
   justify-content: center;
   align-self: start;
-  
 }
 
 .text-right {
   line-height: 100px;
   justify-content: right;
-  
-  
-  
 }
 
 .accent-letter-spacing {
-  letter-spacing: 60px;  
+  letter-spacing: 60px;
+}
 
+.special-class-for-this-simbol {
+  letter-spacing: 0;
 }
 
 .cover__bottom {
   padding-left: 78px;
   padding-right: 50px;
-  
 
   color: white;
   font-size: 22px;
   font-family: Raleway, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
-  line-height: 28px;  
+  line-height: 28px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
 }
 
 .cover__bottom-text {
@@ -162,7 +150,6 @@ body {
 }
 
 .cover__bottom-button {
-
   color: #fff;
   background-color: transparent;
   border: 1px white solid;
@@ -172,6 +159,5 @@ body {
   font-family: Raleway, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  word-wrap: break-word
-
+  word-wrap: break-word;
 }
