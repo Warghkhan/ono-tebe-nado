@@ -4,6 +4,9 @@ a {
 
 address {
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .header {
@@ -55,13 +58,6 @@ address {
   height: 100%;
 }
 
-.contacts {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  /*margin-left: 186px;*/
-}
-
 .contact__item {
   list-style-type: none;
   line-height: 24.3px;
@@ -76,7 +72,7 @@ address {
 
 .cover {
   background-color: #000;
-  height: 757px;
+  min-height: 757px; /*исправлено согласно комментария*/
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -182,7 +178,7 @@ address {
 }
 .lots__card-list-item {
   width: 334px;
-  height: 563px;
+  min-height: 563px; /*исправлено согласно комментария*/
   list-style-type: none;
   background-color: #000;
   display: flex;
@@ -208,20 +204,17 @@ address {
 .card_type_film {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 163%;
 }
 .card_type_book {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 162%;
 }
 .card_type_picture {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/card-lot-03.jpg);
+}
+/*исправлено согласно комментария*/
+.card_type_common {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 162%;
@@ -229,7 +222,7 @@ address {
 
 .card__text {
   font-size: 20px;
-  font-family: Raleway;
+  /*исправлено согласно комментария*/
   font-weight: 400;
   word-wrap: break-word;
 }
@@ -292,12 +285,11 @@ address {
   letter-spacing: 0.05px;
   word-wrap: break-word;
 }
-
-.about__text-paragraph-one {
+/*исправлено согласно комментария*/
+.about__text:first-of-type {
   padding-right: 16px;
 }
-
-.about__text-paragraph-two {
+.about__text:last-of-type {
   line-height: 23.5px;
   letter-spacing: -0.01px;
 }
