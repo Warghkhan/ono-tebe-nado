@@ -315,11 +315,6 @@ address {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  border-bottom: 1px red solid;
-}
-
-.footer__menu {
-  /*border: 1px #000 solid;*/
 }
 
 .footer__menu-list {
