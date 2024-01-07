@@ -213,8 +213,8 @@ address {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../images/card-lot-03.jpg);
 }
-/*исправлено согласно комментария*/
-.card_type_common {
+/*исправлено согласно комментария*2*/
+.card {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 162%;
