@@ -13,9 +13,9 @@
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item header__menu-item_active">главная</li>
-          <li class="header__menu-item">посмотреть лоты</li>
-          <li class="header__menu-item">об аукционе</li>
+          <li class="header__menu-item header__menu-item_active" ><a href="#cover_section">главная</a></li>
+          <li class="header__menu-item" ><a href="#lots_section">посмотреть лоты</a></li>
+          <li class="header__menu-item" > <a href="#about_section">об аукционе</a> </li>
         </ul>
       </nav>
       <a class="header__logo">
@@ -29,10 +29,18 @@
       <div class="contacts">
         <ul>
           <li class="contact__item">
-            <div class="contact__item-underline">+9 999 555 5555</div>
+            <div class="contact__item-underline">
+              <a href="tel:+9 999 555 5555" 
+                >+9 999 555 5555</a
+              >
+            </div>
           </li>
           <li class="contact__item">
-            <div class="contact__item-underline">info@sobaka.ge</div>
+            <div class="contact__item-underline">
+              <a href="mailto:info@sobaka.ge"
+                >info@sobaka.ge</a
+              >
+            </div>
           </li>
           <li class="contact__item">
             наб. Принсенграхт 263- <br />265, Амстердам
@@ -41,7 +49,7 @@
       </div>
     </header>
     <main>
-      <section class="cover">
+      <section class="cover" >
         <!---
         <img
           class="cover__title-image"
@@ -49,29 +57,33 @@
           alt="Обложка картина маслом лотос"
         />
         --->
-        <div class="cover__title">   
+        <div class="cover__title">
           <h1>
             <span class="accent-span text-left"
-              >о<span class="text-left accent-letter-spacing">но</span></span>
+              >о<span class="text-left accent-letter-spacing">но</span></span
+            >
             <span class="accent-span text-center"
-              >те<span class="accent-letter-spacing text-center">бе</span></span>
-            <span class=" accent-span text-right"
-              ><span class="accent-letter-spacing">н</span>ад<span class="special-class-for-this-simbol">о</span></span>
+              >те<span class="accent-letter-spacing text-center">бе</span></span
+            >
+            <span class="accent-span text-right"
+              ><span class="accent-letter-spacing">н</span>ад<span
+                class="special-class-for-this-simbol"
+                >о</span
+              ></span
+            >
           </h1>
         </div>
         <div class="cover__bottom">
           <a class="cover__bottom-text">
             Аукцион вещей, в которые никто не верил
           </a>
-          <button class="cover__bottom-button" alt="Кнопка сделать ставку">
-            Сделать ставку
-          </button>
+          <button class="cover__bottom-button">Сделать ставку</button>
         </div>
       </section>
 
-      <section class="lots"></section>
+      <section class="lots" name="lots"></section>
 
-      <section class="about"></section>
+      <section class="about" name="about"></section>
     </main>
 
     <footer class="footer"></footer>
