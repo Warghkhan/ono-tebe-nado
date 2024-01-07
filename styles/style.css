@@ -47,6 +47,7 @@ address {
 .header__logo {
   width: 148px;
   height: 105px;
+  margin-right: 186px;
 }
 
 .header__logo-image {
@@ -58,7 +59,7 @@ address {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 186px;
+  /*margin-left: 186px;*/
 }
 
 .contact__item {
@@ -299,4 +300,63 @@ address {
 .about__text-paragraph-two {
   line-height: 23.5px;
   letter-spacing: -0.01px;
+}
+
+.footer {
+  width: 100%;
+  padding-left: 50.52px;
+  padding-top: 2px;
+  padding-bottom: 89px;
+
+  display: flex;
+  flex-direction: space-between;
+ 
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-bottom: 1px red solid;
+}
+
+.footer__menu {
+
+  /*border: 1px #000 solid;*/
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  list-style-type: none;
+  border-bottom: none;
+  padding-left: 223px;
+  padding-right: 185px;
+
+}
+
+.footer__menu-link {
+  border-bottom: 1px #000 solid;
+}
+
+.footer__menu-link_active {
+  border-bottom: none;
+
+}
+
+.footer__social-list-item{
+  width: 48px;
+  height: 48px;
+}
+
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+  gap: 48px;
+  list-style-type: none;
+  border-bottom: none;
+
+
 }
