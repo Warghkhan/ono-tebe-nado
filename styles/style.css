@@ -310,7 +310,7 @@ address {
 
   display: flex;
   flex-direction: space-between;
- 
+
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -319,7 +319,6 @@ address {
 }
 
 .footer__menu {
-
   /*border: 1px #000 solid;*/
 }
 
@@ -332,7 +331,6 @@ address {
   border-bottom: none;
   padding-left: 223px;
   padding-right: 185px;
-
 }
 
 .footer__menu-link {
@@ -341,10 +339,9 @@ address {
 
 .footer__menu-link_active {
   border-bottom: none;
-
 }
 
-.footer__social-list-item{
+.footer__social-list-item {
   width: 48px;
   height: 48px;
 }
@@ -357,6 +354,4 @@ address {
   gap: 48px;
   list-style-type: none;
   border-bottom: none;
-
-
 }
